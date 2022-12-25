@@ -1,7 +1,8 @@
 console.clear();
 
+let input = prompt("Celsius: ");
 
-let result = celsiusToFahrenheit(20);
+let result = celsiusToFahrenheit(input);
 
 console.log(result);
 
